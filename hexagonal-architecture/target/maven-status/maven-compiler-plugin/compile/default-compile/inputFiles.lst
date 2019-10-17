@@ -1,9 +1,0 @@
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\HexagonalArchitectureApplication.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\web\BookUI.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\core\service\BookServiceImpl.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\util\DatabaseUtil.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\core\domain\Book.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\adapter\BookControllerAdapter.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\port\BookServicePort.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\port\BookRepositoryPort.java
-C:\Users\Home\Dropbox\Baeldung\_PROJECT\tutorials\patterns\hexagonal-architecture\src\main\java\com\baeldung\hexagonalarchitecture\adapter\BookRepositoryAdapter.java

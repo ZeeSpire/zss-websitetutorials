@@ -1,9 +1,0 @@
-com\baeldung\hexagonalarchitecture\port\BookRepositoryPort.class
-com\baeldung\hexagonalarchitecture\core\service\BookServiceImpl.class
-com\baeldung\hexagonalarchitecture\web\BookUI.class
-com\baeldung\hexagonalarchitecture\core\domain\Book.class
-com\baeldung\hexagonalarchitecture\util\DatabaseUtil.class
-com\baeldung\hexagonalarchitecture\adapter\BookRepositoryAdapter.class
-com\baeldung\hexagonalarchitecture\HexagonalArchitectureApplication.class
-com\baeldung\hexagonalarchitecture\port\BookServicePort.class
-com\baeldung\hexagonalarchitecture\adapter\BookControllerAdapter.class
