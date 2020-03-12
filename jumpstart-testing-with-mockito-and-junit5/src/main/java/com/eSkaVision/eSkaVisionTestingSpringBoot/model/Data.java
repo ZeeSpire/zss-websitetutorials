@@ -2,10 +2,10 @@ package com.eSkaVision.eSkaVisionTestingSpringBoot.model;
 
 import java.util.Objects;
 
-public class MockitoObject {
+public class Data {
     private String name;
 
-    public MockitoObject(String name) {
+    public Data(String name) {
         this.name = name;
     }
 
@@ -21,7 +21,7 @@ public class MockitoObject {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MockitoObject that = (MockitoObject) o;
+        Data that = (Data) o;
         return Objects.equals(name, that.name);
     }
 
