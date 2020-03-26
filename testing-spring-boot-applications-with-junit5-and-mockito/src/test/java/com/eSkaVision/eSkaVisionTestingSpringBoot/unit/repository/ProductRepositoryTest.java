@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @ExtendWith(SpringExtension.class)
-//    @ExtendWith(SpringExtension.class) - Register as a Spring Unit test
+// @ExtendWith(SpringExtension.class) - Register as a Spring Unit test
 @DataJpaTest
 // Annoation will lunch a H2 database for testing purpose
 class ProductRepositoryTest {

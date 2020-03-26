@@ -34,8 +34,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
         //
         //    Adding these two annotations will mark test as a Spring test just for ProductController
         //    it will disable auto-configuration for other Spring components, testing this controller
-        //    in isolation, we cannot make use of a real ProductService Component, because it will not
-        //    be instantiated into the ApplicationContext
+        //    in isolation. We cannot make use of a real ProductService Component, because it will not
+        //    be instantiated into the ApplicationContext.
 class ProductControllerTest {
 
     @Autowired

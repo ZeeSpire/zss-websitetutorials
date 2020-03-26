@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //    All components within the application will pe instantiated in Application Context
 //    This will simulate the application running as a whole, unlike unit tests which test just individual components
 //    Also this will lunch the in-memory database and query it just like in a real scenario
-public class ProductController {
+public class ProductIntegrationTest {
 
     @Autowired
     private TestRestTemplate testRestTemplate;
