@@ -46,20 +46,24 @@ public class ProductIntegrationTest {
     @Test
     @DirtiesContext //@DirtiesContext will rollback database changes after test is done
     void getProductApi_Should_ReturnProduct_When_Called() {
+        addSomeDataToDb();
+
+        ResponseEntity<Product> response = testRestTemplate
+                .getForEntity("/products?id=1", Product.class, new HashMap<String, String>());
+
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+
+        assertEquals("Beer", response.getBody().getName());
+        assertEquals(10L, response.getBody().getQuantity());
+        assertEquals(100, response.getBody().getPrice());
+    }
+
+    private void addSomeDataToDb() {
         Product p1 = new Product("Beer", 110.0, 10L);
         Product p2 = new Product("Cheese", 100.0, 9L);
         Product p3 = new Product("WIne", 110.0, 10L);
         productRepository.save(p1);
         productRepository.save(p2);
         productRepository.save(p3);
-
-        ResponseEntity<Product> response = testRestTemplate
-                .getForEntity("/products?id=1", Product.class, new HashMap<String, String>());
-
-        assertEquals(response.getStatusCode(), HttpStatus.OK);
-
-        assertEquals(response.getBody().getName(), p1.getName());
-        assertEquals(response.getBody().getQuantity(), p1.getQuantity());
-        assertEquals(response.getBody().getPrice(), p1.getPrice() - 10);
     }
 }
