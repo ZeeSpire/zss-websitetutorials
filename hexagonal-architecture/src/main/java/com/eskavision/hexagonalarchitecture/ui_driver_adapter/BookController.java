@@ -1,6 +1,6 @@
 package com.eskavision.hexagonalarchitecture.ui_driver_adapter;
 
-import com.eskavision.hexagonalarchitecture.core.domain.book.BookDoesNotExistException;
+import com.eskavision.hexagonalarchitecture.core.domain.BookDoesNotExistException;
 import com.eskavision.hexagonalarchitecture.core.driver_ports.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

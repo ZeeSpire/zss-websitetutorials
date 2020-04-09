@@ -1,4 +1,4 @@
-package com.eskavision.hexagonalarchitecture.core.domain.book;
+package com.eskavision.hexagonalarchitecture.core.domain;
 
 public class Book {
     private Long id;
