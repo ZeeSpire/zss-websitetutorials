@@ -1,16 +1,16 @@
-package com.eskavision.hexagonalarchitecture.database;
+package com.eskavision.hexagonalarchitecture.db_driven_adapter;
 
 import com.eskavision.hexagonalarchitecture.core.domain.Book;
 import com.eskavision.hexagonalarchitecture.core.domain.BookDoesNotExistException;
-import com.eskavision.hexagonalarchitecture.core.port.BookRepositoryPort;
-import com.eskavision.hexagonalarchitecture.database.domain.BookEntity;
-import com.eskavision.hexagonalarchitecture.database.jparepository.HAAJpaRepository;
+import com.eskavision.hexagonalarchitecture.core.driven_ports.BookRepository;
+import com.eskavision.hexagonalarchitecture.db_driven_adapter.domain.BookEntity;
+import com.eskavision.hexagonalarchitecture.db_driven_adapter.jparepository.HAAJpaRepository;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class JpaBookRepositoryAdapter implements BookRepositoryPort {
+public class JpaBookRepository implements BookRepository {
 
     @Autowired
     private HAAJpaRepository haaJpaRepository;

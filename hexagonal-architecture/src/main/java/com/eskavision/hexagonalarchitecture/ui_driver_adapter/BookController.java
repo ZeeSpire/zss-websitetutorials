@@ -1,8 +1,7 @@
-package com.eskavision.hexagonalarchitecture.ui;
+package com.eskavision.hexagonalarchitecture.ui_driver_adapter;
 
-import com.eskavision.hexagonalarchitecture.core.port.BookControllerPort;
 import com.eskavision.hexagonalarchitecture.core.domain.BookDoesNotExistException;
-import com.eskavision.hexagonalarchitecture.core.domain.BookService;
+import com.eskavision.hexagonalarchitecture.core.driver_ports.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BookControllerControllerAdapter implements BookControllerPort {
+public class BookController {
 
     @Autowired
     private BookService bookService;

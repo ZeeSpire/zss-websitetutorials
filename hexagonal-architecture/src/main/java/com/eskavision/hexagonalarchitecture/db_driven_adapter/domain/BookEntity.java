@@ -1,4 +1,4 @@
-package com.eskavision.hexagonalarchitecture.database.domain;
+package com.eskavision.hexagonalarchitecture.db_driven_adapter.domain;
 
 import com.eskavision.hexagonalarchitecture.core.domain.Book;
 import javax.persistence.Column;
