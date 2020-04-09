@@ -1,7 +1,7 @@
 package com.eskavision.hexagonalarchitecture.db_driven_adapter;
 
-import com.eskavision.hexagonalarchitecture.core.domain.Book;
-import com.eskavision.hexagonalarchitecture.core.domain.BookDoesNotExistException;
+import com.eskavision.hexagonalarchitecture.core.domain.book.Book;
+import com.eskavision.hexagonalarchitecture.core.domain.book.BookDoesNotExistException;
 import com.eskavision.hexagonalarchitecture.core.driven_ports.BookRepository;
 import com.eskavision.hexagonalarchitecture.db_driven_adapter.domain.BookEntity;
 import com.eskavision.hexagonalarchitecture.db_driven_adapter.jparepository.HAAJpaRepository;

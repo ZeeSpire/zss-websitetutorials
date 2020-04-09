@@ -1,6 +1,6 @@
 package com.eskavision.hexagonalarchitecture.db_driven_adapter.domain;
 
-import com.eskavision.hexagonalarchitecture.core.domain.Book;
+import com.eskavision.hexagonalarchitecture.core.domain.book.Book;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
