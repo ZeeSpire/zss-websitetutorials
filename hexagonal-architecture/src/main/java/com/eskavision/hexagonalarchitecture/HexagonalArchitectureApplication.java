@@ -1,4 +1,4 @@
-package com.baeldung.hexagonalarchitecture;
+package com.eskavision.hexagonalarchitecture;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
